@@ -1,0 +1,15 @@
+.btn__list {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 5px 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #2b8f9c;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fe6637;
+  transition: 0.2s ease-in-out;
+  margin-left: 15px;
+}

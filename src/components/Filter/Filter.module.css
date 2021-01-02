@@ -1,0 +1,22 @@
+.filter__wrap {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+.filtter_title {
+  color: rgb(101, 161, 148);
+  font-family: 'Open Sans';
+  font-size: 35px;
+}
+.filter_input {
+  color: rgb(130, 206, 189);
+  font-family: 'Open Sans';
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.filter__caption {
+  font-size: 20px;
+  font-family: 'Open Sans';
+}
