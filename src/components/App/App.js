@@ -22,13 +22,6 @@ export default function App() {
     }
   }, []);
 
-  // useEffect(() => {
-  //   const userContacts = JSON.parse(localStorage.getItem('userContacts'));
-  //   if (userContacts) {
-  //     setContacts(userContacts)
-  //   }
-  // });
-
   useEffect(() => {
     localStorage.setItem('userContacts', JSON.stringify(contacts));
   }, [contacts]);
@@ -46,10 +39,9 @@ export default function App() {
 
   const handleFilterChange = filter => setFilter({ filter });
 
-  const handleRemoveContact = id =>
-    setContacts(contacts => ({
-      contacts: contacts.filter(contact => contact.id !== id),
-    }));
+  const handleRemoveContact = id => {
+    setContacts(contacts.filter(contact => contact.id !== id));
+  };
 
   const getVisibleContacts = () => {
     return contacts.filter(contact =>
