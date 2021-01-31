@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import { v4 as uuid } from 'uuid';
-// import PropTypes from 'prop-types';
 import s from './ContactForm.module.css';
 
 const initalState = {
